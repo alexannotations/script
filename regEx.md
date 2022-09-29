@@ -1,4 +1,5 @@
 # Expresiones Regulares
+https://bioinf.comav.upv.es/courses/unix/expresiones_regulares.html
 
 Cuando se solicita ingresar información través de un programa por parte del usuario que está utilizando el programa, es importante considerar la validación de la información, permitiendo asegurar la calidad de la información recibida, procesada y almacenada.
 Se utiliza expresiones regulares, básicamente son cadenas de caracteres que definen un patrón de búsqueda que se valida frente a una información específica para asegurar que cumple la validación definida.
