@@ -6,6 +6,9 @@
 #    Signo de dólar con el formato $(comando)
 # https://mywiki.wooledge.org/BashFAQ/082
 
+# $(date +%F)
+# The %F option is an alias for %Y-%m-%d
+
 ubicacionActual=`pwd`
 infoKernel=$(uname -a)
 creacion=`date +"fecha_%Y-%m-%d_%H-%M-%S"`    # formatting characters for the date command
