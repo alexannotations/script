@@ -17,6 +17,7 @@ echo "Nombre del script: $0"
 # Lista de parámetros (un parámetro por argumento) 
 echo -e "\nIdentificador (parámetro especial) \$@"
 echo "Parámetros :" 
+# $@ is all of the parameters passed to the script
 for param in $@
     do 
         echo "$param" 
