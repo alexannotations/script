@@ -2,4 +2,5 @@
 #/*[!.]*
 archivoLogo2022
 *.zip
-*.gz*.tar
+*.gz
+*.tar

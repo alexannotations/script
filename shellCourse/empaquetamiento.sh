@@ -9,6 +9,8 @@ echo "Empaquetar todos los scripts de la carpeta shellCourse"
 tar -cvf packetShellCourse.tar shellCourse/*.sh
 # Cuando se empaqueta con gzip el empaquetamiento se elimina
 # gzip packetShellCourse.tar
+
+# (crear una condicion IF (type pbzip2) para verificar si esta instalado el programa)
 pbzip2 -f packetShellCourse.tar
 
 
