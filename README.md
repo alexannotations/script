@@ -1,6 +1,7 @@
 # Bash script
 aprendiendo shell sh
 https://bioinf.comav.upv.es/courses/unix/scripts_bash.html
+https://devhints.io/bash
 
 ## Ejecucion
  - Para ejecutar los archivos sh, deben tener permisos de ejecucion. --x
