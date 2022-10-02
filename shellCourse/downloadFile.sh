@@ -4,7 +4,7 @@
 # Para archivos pequeños ~> wget
 # Para comunicarse con un servicio (por ejemplo, una API Restful) ~> curl
 # Para archivos de tamaño considerable ~> aria2
-#  lynx (Navegador web por consola)
+#  lynx (navegador web por consola o browser)
 
 
 echo "Descargar información de internet"
