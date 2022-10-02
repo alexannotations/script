@@ -19,9 +19,13 @@ pbzip2 -f packetShellCourse.tar
 # C Extraer tus archivos a un directorio diferente, puedes usar la opción -C
 # >> output redirection. Appends the existing file, or creates a file
 # > output redirection. Overwrites the existing file, or creates a file
-# < input redirection.
+# < input redirection. si el comando lee stdin, ahora leera desde el archivo en lugar del teclado.
 # << is known as here-document structure
 # <<< is known as here-string
 
 echo "Empaquetar un directorio con tar y pbzip2"
 tar -cf shellCourse/*.sh -C > packetShellCourseDos.tar.bz2
+
+# stdin     standart input
+# stdout    standart output
+# stderr    standart error (output)
