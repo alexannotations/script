@@ -45,6 +45,7 @@ Muestra solo los comentarios de cada commit:
 ```git log --oneline```
 
 ### Operadores para STDIN, STDOUT/STDERR
+https://denovatoanovato.net/redireccionamientos/
 
 #### operador | (pipe):
 command_1 | command_2
