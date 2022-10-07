@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# https://linuxconfig.org/how-to-use-arrays-in-bash-script
 # El index comienza en 0
 # el array puede seguir incrementando su tamaño a diferencia de los lenguajes de programacion
 # para crear un array se colocan los elementos dentro de brackets o usar rangos
