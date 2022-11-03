@@ -26,8 +26,8 @@ en este caso manda el stdout y stderror los manda al mismo archivo de salida sal
 muestra cuantos procesos se estan ejecutando
 
 ```date; grep -r . -e nombre; date``` puedo ver cuanto tardo una orden
-```grep -nr <path> -e <info_a_buscar>```
-grep nos ayuda a encontrar cadenas de caracteres dentro de todos los archivos de la ruta que le demos, con expresiones regulares
+```grep -inr <path> -e <info_a_buscar>```
+grep nos ayuda a encontrar cadenas de caracteres con ignore case dentro de todos los archivos de la ruta que le indiquemos, con expresiones regulares
 
 ```find``` busca en los nombres de archivo y metadata
 ```find . -name '*.md' -type f```   f file , d directory
